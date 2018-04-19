@@ -1,0 +1,7 @@
+#sent-background {
+	background-image: url('/images/sent-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}

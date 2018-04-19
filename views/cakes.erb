@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html id="background">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="cakes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</head>
+<body>
+
+ <table>
+        <thead>
+          <tr>
+               <th><h1>Flavor</h1></th>
+              <th><h1>Description</h1></th>
+              <th><h1>Price</h1></th>
+          </tr>
+        </thead>
+
+         <% @cake.each do |cook| %>
+        <tbody>
+          <tr>
+            <td><%= cook.type %></td>
+            <td><%= cook.description %></td>
+            <td><%= cook.price %></td>
+          </tr>
+     
+        </tbody>
+        <% end %>
+      </table>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</body>
+</html>

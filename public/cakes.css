@@ -1,0 +1,25 @@
+#background {
+	background-image: url('/images/cake-css.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+/*table {
+	opacity: 0.5;
+	background-color: white;
+
+}*/
+
+tbody {
+	opacity: 0.7;
+	background-color: white;
+	color: black;
+}
+
+thead {
+	opacity: 0.7;
+	background-color: white;
+	color: black;
+}
